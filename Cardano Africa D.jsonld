@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Cardano Africa DRep",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://drive.google.com/file/d/1H1G2VdmPzuVk-yimQqnxa2OZTsk6YBKV/view?usp=sharing",
+      "sha256": "7191abd51bc31d6f47ff84635c3c583b9a4ac92065d13477a7a0eda03b6dc340"
+    },
+    "motivations": "Our desire to serve as Cardano Africa DRep comes from a strong commitment to using blockchain technology for real change. Our experiences in technology, business, and community work have shown us that clear and fair governance can drive progress. We are inspired by Africa's great potential and the resilience of its people, and we believe that careful decisions can overcome challenges and spark new ideas. Together, we work to build a future with better security, more inclusion, and genuine growth. Our passion drives us to listen to every voice and to vote with care and community in mind, leading with honesty, determination, and focus on what truly matters.",
+    "objectives": "As Cardano Africa DRep for the Cardano Africa Academy, we work to build a fair, clear, and strong governance system. We believe that by empowering communities across Africa, we can make informed decisions that support social, economic, and technological growth. Our goal is to review proposals carefully, support projects that drive innovation, and connect local ideas with global expertise. We aim to create a space where open discussion and teamwork lead to real results, improving network security, financial access, and overall development. We promise to use every delegated vote with honesty, vision, and care, shaping a future where progress is shared and clear.",
+    "paymentAddress": "addr1qxes046tszd4xfxzx874hdqdwfxyns8lm4ks6fjnj3d0hu4wra2z4qqldumtt48agj8v4u5pdgh9hp82jdq32arkfm4qr4dgv9",
+    "qualifications": "We are passionate blockchain educators, Cardano ambassador(s), and enthusiasts dedicated to fostering blockchain adoption through education, community engagement, and advocacy. Our efforts include organizing Cardano meetups, facilitating discussions on decentralized governance, and empowering individuals with the knowledge to actively participate in the ecosystem.\n\nWith a deep understanding of blockchain technology and governance frameworks, we strive to ensure informed decision-making within the Cardano community. Our focus is on promoting decentralization, transparency, and inclusivity in the governance process.\n\nAs a DRep, we aim to represent the interests of the community with integrity and a strong commitment to Cardano’s long-term vision.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "We stand for Decentralized Governance for all",
+        "uri": "https://x.com/Jerrybnj"
+      },
+      {
+        "@type": "Identity",
+        "label": "Cardano Ambassador, blockchain educator, and advocate for decentralization.",
+        "uri": "https://x.com/Jerrybnj"
+      }
+    ]
+  }
+}
