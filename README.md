@@ -1,3 +1,4 @@
+![Cardano Africa Logo](academyAssets/Logo.jpeg)
 
 
 # Cardano Africa DRep
