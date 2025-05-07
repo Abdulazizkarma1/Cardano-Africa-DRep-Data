@@ -1,4 +1,3 @@
-![Cardano Africa Logo](https://drive.google.com/file/d/1H1G2VdmPzuVk-yimQqnxa2OZTsk6YBKV/view?usp=sharing)
 
 
 # Cardano Africa DRep
