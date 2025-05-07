@@ -1,3 +1,6 @@
+![Cardano Africa Logo](https://drive.google.com/file/d/1H1G2VdmPzuVk-yimQqnxa2OZTsk6YBKV/view?usp=sharing)
+
+
 # Cardano Africa DRep
 
 **DRep ID**: `drep1ytj9kz0n5yamacgcj8jr6apn36hx5suzqpefxvhy4cvfqmsqangtx`
