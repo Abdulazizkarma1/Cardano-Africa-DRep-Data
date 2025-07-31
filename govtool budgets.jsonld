@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "As clearly defined in the proposal, \"Govtool provides the open, user-friendly, experience needed for all ADA holders (existing and future) to register, delegate, propose, vote, and see outcomes transparently.\" \n\nThis proposal is well detailed and included all key details, some of which as a Drep, i was not aware of. \nGovtool interface provides ecosystem wide participation.\nNow the budget requested, 1.15M ADA, which is relatively low as compared to their earlier proposal budget. budget breakdown is clear with the promise that, any unused fund will be returned to the treasury. \n\nAs stated, Intersect is going to be the administrator, and a portion of the budget (L2) will be hosted on Andamio, how do we track this funds for audit purposes, especially the level 2 funds, which Andamio is going to be hosting? Govtool is a great tool for the community, and kudos to the 5 community builders who have worked tirelessly for this project.\n\nCardano Africa DRep responsibly supports this proposal\n"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
