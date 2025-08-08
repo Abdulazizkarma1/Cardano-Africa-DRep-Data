@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "This treasury withdrawal request is to fund a free Content Delivery Network (CDN) for Cardano NFTs and native assets, by making NFTCDN, an existing service, free-to-use for 18 months.\n\nThis proposalis great because building infrastructure to reliably display Cardano NFTs (images, metadata, etc.) is hard, slow, and expensive. NFTCDN already exists and works and they just want to remove the paywall and open it up to all devs.\n\nHowever, let's talk about long-term sustainability. After 18 months, what happens? Do they go back to being paid only? Will smaller devs get locked out again? There’s no clear exit strategy post-18 months. It could become a Trojan horse for vendor lock.\n\nits no doubt this project solves a critical technical problem for Cardano devs especially smaller projects and we at Cardano Africa Academy supports this initiative."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
