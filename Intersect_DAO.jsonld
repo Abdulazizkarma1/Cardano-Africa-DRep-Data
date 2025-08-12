@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "Cardano Africa DRep votes YES on the governance action to fund Cardano Builder DAO with ₳12M, administered by Intersect, based on the rationale below:\n\nCardano’s application layer is starving for sustained, strategic funding. We’ve had years of protocol-level innovation, Catalyst rounds, and hackathons, but the projects already delivering real users and daily on-chain activity are still left to fend for themselves. This proposal is a direct attempt to close that gap.\n\n₳12M is a serious ask, but the structure, PSSC controlled disbursements, DAO governance, and public KPI reporting make this a calculated investment, not a blind expense. If executed well, the outcome will be measurable: more daily active wallets, higher TVL, greater DeFi liquidity, and stronger retention of developer talent."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
